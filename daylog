@@ -84,6 +84,7 @@ configure: error: C compiler cannot create executables
 See `config.log' for more details.
 
 ***************************************************
+解决步骤一
 安装make
 ******************
 继续
