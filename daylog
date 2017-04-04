@@ -37,3 +37,75 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 
 composer -v
+*******************************************************************************
+
+
+wokedeMacBook-Air:~ woke$ sudo pecl install xdebug
+WARNING: channel "pecl.php.net" has updated its protocols, use "pecl channel-update pecl.php.net" to update
+downloading xdebug-2.5.1.tgz ...
+Starting to download xdebug-2.5.1.tgz (278,286 bytes)
+.....................................................done: 278,286 bytes
+76 source files, building
+running: phpize
+grep: /usr/include/php/main/php.h: No such file or directory
+grep: /usr/include/php/Zend/zend_modules.h: No such file or directory
+grep: /usr/include/php/Zend/zend_extensions.h: No such file or directory
+Configuring for:
+PHP Api Version:
+Zend Module Api No:
+Zend Extension Api No:
+Cannot find autoconf. Please check your autoconf installation and the
+$PHP_AUTOCONF environment variable. Then, rerun this script.
+
+ERROR: `phpize' failed
+wokedeMacBook-Air:~ woke$ 
+
+
+***************************************************
+解决步骤一
+curl -O http://mirrors.kernel.org/gnu/autoconf/autoconf-2.65.tar.gz
+tar -xzvf autoconf-2.65.tar.gz
+cd autoconf-2.65
+./configure --prefix=/usr/local
+***************************************************
+
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... build-aux/install-sh -c -d
+checking for gawk... no
+checking for mawk... no
+checking for nawk... no
+checking for awk... awk
+checking whether make sets $(MAKE)... no
+checking for gcc... gcc
+checking for C compiler default output file name... 
+configure: error: in `/Users/woke/autoconf-2.65/m4-1.4.13':
+configure: error: C compiler cannot create executables
+See `config.log' for more details.
+
+***************************************************
+安装make
+******************
+继续
+make
+sudo make install
+
+curl -O http://mirrors.kernel.org/gnu/m4/m4-1.4.13.tar.gz
+tar -xzvf m4-1.4.13.tar.gz
+cd m4-1.4.13
+./configure --prefix=/usr/local
+make
+sudo make install
+curl -O http://mirrors.kernel.org/gnu/automake/automake-1.11.tar.gz
+tar xzvf automake-1.11.tar.gz
+cd automake-1.11
+./configure --prefix=/usr/local
+make
+sudo make install
+
+curl -O http://mirrors.kernel.org/gnu/libtool/libtool-2.2.6b.tar.gz
+tar xzvf libtool-2.2.6b.tar.gz
+cd libtool-2.2.6b
+./configure --prefix=/usr/local
+make
+sudo make install
