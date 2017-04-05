@@ -75,7 +75,7 @@ disabled
 Configuration File (php.ini) Path
 /etc
 Loaded Configuration File
-(none)
+/etc/php.ini
 Scan this dir for additional .ini files
 (none)
 Additional .ini files parsed
