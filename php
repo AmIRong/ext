@@ -69,7 +69,7 @@ Configure Command
 'CXX=/Applications/Xcode.app/Contents/Developer/Toolchains/OSX10.12.xctoolchain/usr/bin/c++' 
 'CXXFLAGS=-arch '-g' '-Os' '-pipe'
 Server API
-Apache 2.0 Handler
+CGI/FastCGI
 Virtual Directory Support	
 disabled
 Configuration File (php.ini) Path
