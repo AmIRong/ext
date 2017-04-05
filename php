@@ -110,3 +110,40 @@ Registered Stream Socket Transports
 tcp, udp, unix, udg, ssl, sslv3, tls, tlsv1.0, tlsv1.1, tlsv1.2
 Registered Stream Filters
 zlib.*, bzip2.*, convert.iconv.*, string.rot13, string.toupper, string.tolower, string.strip_tags, convert.*, consumed, dechunk
+
+
+Max Requests
+Per Child: 0 - Keep Alive: on - Max Per Connection: 100
+
+Timeouts
+Connection: 60 - Keep-Alive: 5
+Loaded Modules
+core 
+mod_so 
+http_core 
+prefork 
+mod_authn_file 
+mod_authn_core 
+mod_authz_host 
+mod_authz_groupfile 
+mod_authz_user 
+mod_authz_core 
+mod_access_compat 
+mod_auth_basic 
+mod_reqtimeout 
+mod_filter 
+mod_mime 
+mod_log_config 
+mod_env 
+mod_headers 
+mod_setenvif 
+mod_version 
+mod_slotmem_shm 
+mod_unixd 
+mod_status 
+mod_autoindex 
+mod_negotiation 
+mod_dir 
+mod_alias 
+mod_php5 
+mod_hfs_apple2
