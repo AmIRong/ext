@@ -110,3 +110,5 @@ cd libtool-2.2.6b
 ./configure --prefix=/usr/local
 make
 sudo make install
+************************
+依然没有在phpinfo中看到xdebugger，第二天分析phinfo信息:发现Loaded Configuration File为（none）,搜索了解后，修改／etc/php.ini.default为／etc/php.ini
