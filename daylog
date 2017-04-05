@@ -111,4 +111,6 @@ cd libtool-2.2.6b
 make
 sudo make install
 ************************
-依然没有在phpinfo中看到xdebugger，第二天分析phinfo信息:发现Loaded Configuration File为（none）,搜索了解后，修改／etc/php.ini.default为／etc/php.ini
+依然没有在phpinfo中看到xdebugger，第二天分析phinfo信息:发现Loaded Configuration File为（none）,搜索了解后，修改／etc/php.ini.default为／etc/php.ini，xdebugger OK之前在github上找的
+
+zendDebugger仍无法使用。继续探索，下载新的zendDebugger，地址http://www.zend.com/en/products/studio/downloads 下载，安装，OK！
