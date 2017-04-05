@@ -147,3 +147,10 @@ mod_dir
 mod_alias 
 mod_php5 
 mod_hfs_apple2
+
+
+
+                                                          SAPI Modules
+                                                          
+CGI / FastCGI
+Rasmus Lerdorf, Stig Bakken, Shane Caraveo, Dmitry Stogov
