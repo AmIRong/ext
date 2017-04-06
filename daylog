@@ -141,4 +141,11 @@ zendDebugger仍无法使用。继续探索，下载新的zendDebugger，地址ht
  cd ESTMusicPlayer
  pod install
  ****************************
+ 安装weberp无法连接数据库
+ sudo vi php.ini
+ 修改
+ mysqli.default_socket = /tmp/mysql.sock
+ mysql.default_socket = /tmp/mysql.sock
+ pdo_mysql.default_socket=/tmp/mysql.sock
  
+ sudo apachectl restart
