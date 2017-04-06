@@ -114,3 +114,31 @@ sudo make install
 依然没有在phpinfo中看到xdebugger，第二天分析phinfo信息:发现Loaded Configuration File为（none）,搜索了解后，修改／etc/php.ini.default为／etc/php.ini，xdebugger OK之前在github上找的
 
 zendDebugger仍无法使用。继续探索，下载新的zendDebugger，地址http://www.zend.com/en/products/studio/downloads 下载，安装，OK！
+
+**********************
+
+ 安装mysql nodejs后
+ **********************
+ 
+ sudo git clone https://git.oschina.net/xiaolan/ones.git
+ cd ones
+ sudo npm install -g bower
+ sudo bower install --allow-root
+ cd server
+ composer install --no-plugins --no-scripts
+ cd ..
+ sudo php install/install.php
+ 
+ *****************************
+ 
+ Download rubygems-2.6.11 后
+ tar -xzvf rubygems-2.6.11.tar
+ cd rubygems-2.6.11
+ sudo ruby setup.rb
+ sudo gem install cocoapods
+ pod setup
+ git clone https://github.com/Aufree/ESTMusicPlayer
+ cd ESTMusicPlayer
+ pod install
+ ****************************
+ 
