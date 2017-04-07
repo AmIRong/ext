@@ -156,3 +156,11 @@ alias mysql='/usr/local/mysql/bin/mysql'
 filezilla server安装windows服务器，若要链接需要开放防火墙
 
 mysql odbc connector 安装失败因为需要Visual C++ Redistributable Packages for Visual Studio 2013（https://www.microsoft.com/zh-cn/download/confirmation.aspx?id=40784）
+
+mysql -u root -p
+user mysql;
+update user set host = '%' where user = 'root';
+select host, user from user;
+flush privileges;
+
+开放防火墙或高级设置inbounds rules （private，domain，public）为All
