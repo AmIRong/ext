@@ -11,3 +11,15 @@ sudo vi /etc/apache2/httpd.conf
 sudo apachectl start
 
 sudo apachectl restart
+
+*********************************************
+
+history -c
+
+*********************************************
+
+curl http://127.0.0.1/systeminfo.php
+
+********************************************
+
+curl -O  http://pear.php.net/distributions/manual/pear_manual_en.tar.bz2
