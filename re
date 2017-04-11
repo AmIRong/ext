@@ -36,3 +36,31 @@ sudo mkdir -p /usr/local/bin
 sudo mv composer.phar /usr/local/bin/composer
 
 ********************************************
+
+curl -O https://pear.php.net/go-pear.phar
+
+sudo php -d detect_unicode=0 go-pear.phar
+
+You're now ready to configure PEAR for installation.
+
+First you need to change the Installation Base.
+
+So type 1, and then press Enter.
+
+Enter /usr/local/pear
+
+Press Enter.
+
+Then, you will need to change the Binaries directory.
+
+Type 4, and then press Enter.
+
+Enter /usr/local/bin
+
+Press Enter.
+
+Once you have changed the Installation Base and the Binaries Directory, press Enter to install PEAR.
+
+pear help version
+
+*********************************************************
