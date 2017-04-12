@@ -171,4 +171,7 @@ mysqld --initialize（或mysqld --initialize-insecure）
 "C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld" --console
 重要mysqld --initialize-insecure无密码
 
-
+Starting MySQL from the Windows Command Line
+"C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld"
+"C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqladmin" -u root shutdown
+************************************
