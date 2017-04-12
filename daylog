@@ -168,10 +168,10 @@ flush privileges;
 
 解压mysql zip archive 到C:\Program Files\MySQL\MySQL Server 5.7（default）
 mysqld --initialize（或mysqld --initialize-insecure）
-"C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld" --console
+"C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld" --console（方式二）
 重要mysqld --initialize-insecure无密码
 
-Starting MySQL from the Windows Command Line
+Starting MySQL from the Windows Command Line(方式一)
 "C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld"
 "C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqladmin" -u root shutdown
 ************************************
