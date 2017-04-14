@@ -149,6 +149,15 @@ sudo phpunit ./Tests/
 FAILURES!
 Tests: 2, Assertions: 7, Failures: 1.
 
+***************
 
+ab -n 100 -c 10 http://baidu.com/
 
+curl -O http://mirrors.tuna.tsinghua.edu.cn/apache//jmeter/source/apache-jmeter-3.1_src.tgz
+安装jre，jdk
+启动jmeter
+报错
+curl -O http://mirrors.hust.edu.cn/apache//jmeter/binaries/apache-jmeter-3.2.tgz
+启动jmeter
+ok，
 
