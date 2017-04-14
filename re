@@ -161,3 +161,7 @@ curl -O http://mirrors.hust.edu.cn/apache//jmeter/binaries/apache-jmeter-3.2.tgz
 启动jmeter
 ok，
 
+删除下载目录autoconf-2.65
+依旧有效
+
+启动jmeter
