@@ -116,5 +116,39 @@ cd libmcrypt-2.5.7
  sudo vi /etc/php.ini
  extension=memcache.so
  sudo apachectl restart
+*********************************************************************
+cd /library/webserver/documents
+git clone https://github.com/phalapi/phalapi.git
+cd phalapi/phalapi
+sudo chmod +x ./phalapi-buildapp
+./phalapi-buildapp MyApp
+cd ../myapp
+tree
+无效
+find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'
+phpunit ./Tests/
+无效
+***************************************************************
+cd ~
+curl -O https://phar.phpunit.de/phpunit-3.7.10.phar
+php phpunit-3.7.10.phar --version
+chmod +x phpunit-3.7.10.phar
+sudo mv phpunit-3.7.10.phar /usr/local/bin/phpunit
+cd /library/webserver/documents/phalapi/myapp
+sudo phpunit ./Tests/
+
+FAILURES!
+Tests: 2, Assertions: 7, Failures: 1
+curl -O https://phar.phpunit.de/phpunit-4.3.4.phar
+php phpunit-4.3.4.phar --version
+chmod +x phpunit-4.3.4.phar
+sudo mv phpunit-4.3.4.phar /usr/local/bin/phpunit
+cd /library/webserver/documents/phalapi/myapp
+sudo phpunit ./Tests/
+
+FAILURES!
+Tests: 2, Assertions: 7, Failures: 1.
+
+
 
 
