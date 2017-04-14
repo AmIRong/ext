@@ -86,4 +86,35 @@ sudo vi php.ini
 
 sudo apachectl restart
 
+*********************
+
+sudo pecl install Mcrypt
+报错
+sudo pecl install Mcrypt channel://pecl.php.net/Mcrypt-1.0.1
+报错
+php -m
+php -v
+cd downloads
+curl -O http://au1.php.net/get/php-5.6.30.tar.bz2/from/this/mirror
+tar -xzvf php-5.6.30.tar
+cd php-5.6.30/ext/mcrypt
+phpize
+./configure
+报错
+curl -O ftp://mcrypt.hellug.gr/pub/crypto/mcrypt/libmcrypt
+tar -zxvf libmcrypt-2.5.7.tar.gz
+cd libmcrypt-2.5.7
+./configure --prefix=/usr/local
+ make
+ sudo make install
+ cd ~／downloads/php-5.6.30/ext/mcrypt
+ phpize
+ ./configure
+ make
+ sudo make install
+ 自动安装到/usr/lib/php/extensions/no-debug-non-zts-20131226/mcrypt.so
+ sudo vi /etc/php.ini
+ extension=memcache.so
+ sudo apachectl restart
+
 
