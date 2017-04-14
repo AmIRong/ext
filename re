@@ -64,3 +64,26 @@ Once you have changed the Installation Base and the Binaries Directory, press En
 pear help version
 
 *********************************************************
+
+sudo pecl install Memcache
+*********************
+报错：修复警告
+sudo pecl channel-update pecl.php.net
+
+修复报错
+curl -O http://mirrors.kernel.org/gnu/autoconf/autoconf-2.65.tar.gz
+ tar -xzvf autoconf-2.65.tar.gz
+ cd autoconf-2.65
+ ./configure --prefix=/usr/local
+ make
+ sudo make install
+ ********************
+ sudo pecl install Memcache
+cd /etc
+sudo cp php.ini.default php.ini
+sudo vi php.ini
+根据提示You should add "extension=memcache.so" to php.ini
+
+sudo apachectl restart
+
+
