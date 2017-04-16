@@ -165,3 +165,11 @@ ok，
 依旧有效
 
 启动jmeter
+
+***************
+
+安装zendserver，mysql
+
+sudo /usr/local/mysql-5.7.17-macos10.12-x86_64/bin/mysqld_safe --skip-grant-tables&
+
+sudo /usr/local/mysql-5.7.17-macos10.12-x86_64/bin/mysql -u root -h 127.0.0.1（mysql tcp/ip 方式连接（mysql.sock不存在的条件下））
