@@ -173,3 +173,8 @@ ok，
 sudo /usr/local/mysql-5.7.17-macos10.12-x86_64/bin/mysqld_safe --skip-grant-tables&
 
 sudo /usr/local/mysql-5.7.17-macos10.12-x86_64/bin/mysql -u root -h 127.0.0.1（mysql tcp/ip 方式连接（mysql.sock不存在的条件下））
+
+如果知识在魔鬼偷走，下地狱也要把它拿回来
+
+忍者，仁也，仁者，人也；
+智者，蠢猪也，愚者，鱼龙也；
