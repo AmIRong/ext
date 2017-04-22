@@ -194,11 +194,14 @@ cd cmake-3.7.2.tar.gz
 sudo ./bootstrap && sudo make && sudo make install
 
 curl -O https://pkg-config.freedesktop.org/releases/pkg-config-0.29.2.tar.gz
-./configure --with-internel-gilb
+tar -xzvf pkg-config-0.29.2.tar.gz
+cd pkg-config-0.29.2
+./configure --with-internal-glib
 make
 sudo makeinstall
 
 curl -O https://github.com/opencv/opencv/archive/3.2.0.zip
+tar -zxvf opencv-3.2.0.zip
 sudo cmake -G "Unix Makefiles"
 sudo make -j8
 sudo make install 
