@@ -187,3 +187,8 @@ MATLAB R2010a简介
 
 碳是黑的吗？
 信息技术现已经走过了条的阶段，进入到块的阶段。
+
+curl -O https://cmake.org/files/v3.7/cmake-3.7.2.tar.gz
+tar -zxvf cmake-3.7.2.tar.gz
+cd cmake-3.7.2.tar.gz
+sudo ./bootstrap && sudo make && sudo make install
