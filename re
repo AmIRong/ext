@@ -192,3 +192,19 @@ curl -O https://cmake.org/files/v3.7/cmake-3.7.2.tar.gz
 tar -zxvf cmake-3.7.2.tar.gz
 cd cmake-3.7.2.tar.gz
 sudo ./bootstrap && sudo make && sudo make install
+
+curl -O https://pkg-config.freedesktop.org/releases/pkg-config-0.29.2.tar.gz
+./configure --with-internel-gilb
+make
+sudo makeinstall
+
+curl -O https://github.com/opencv/opencv/archive/3.2.0.zip
+sudo cmake -G "Unix Makefiles"
+sudo make -j8
+sudo make install 
+
+git clone https://github.com/liuruoze/EasyPR
+cd easypr
+https://github.com/liuruoze/EasyPR/issues/152
+./build.sh
+
