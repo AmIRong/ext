@@ -96,3 +96,27 @@ FORTRAN编译器的选项。
 MDCD 压缩文件 ：文件或文件组使用MDCD压缩器压缩。
 Amiga LZX压缩文件 ：保存为Moneydance的数据文件，一个个人资金软件程序，比Intuit Quicken 或 Microsoft Money更小，保存银行账户，报表，预算，股票档案和其他信息。
 markdown的缩写：Markdown是一种可以使用普通文本编辑器编写的轻量化标记语言，通过类似HTML的标记语法，它可以使普通文本内容具有一定的格式。该文档格式在github上有广泛应用，用于代替传统的txt文本，同时又比html简单，这样有注于专注文章内容。
+
+
+me@daggerfs.com
+
+CS281A
+
+
+Python 模块：import 语句，Python中的包
+
+Python 函数:函数代码块以 def 关键词开头，后接函数标识符名称和圆括号()。匿名函数. python 使用 lambda 来创建匿名函数。
+
+Python 变量类型:变量赋值
+        Python 中的变量赋值不需要类型声明。
+        每个变量在内存中创建，都包括变量的标识，名称和数据这些信息。
+        每个变量在使用前都必须赋值，变量赋值以后该变量才会被创建。
+        等号（=）用来给变量赋值。
+        等号（=）运算符左边是一个变量名,等号（=）运算符右边是存储在变量中的值。例如：
+        
+Python pass 语句:Python pass是空语句，是为了保持程序结构的完整性。pass 不做任何事情，一般用做占位语句。
+
+Python 列表(List):
+
+@classmethod:
+ 
