@@ -221,3 +221,11 @@ https://github.com/liuruoze/EasyPR/issues/152
 
 sudo easy_install pip 
 http://blog.csdn.net/jobschen/article/details/49559023
+
+pip install --upgrade pip
+
+pip install jupyter
+
+http://www.zhimengzhe.com/mac/234096.html
+sudo pip install python-dateutil==2.2
+sudo jupyter notebook --allow-root
