@@ -215,3 +215,8 @@ https://github.com/liuruoze/EasyPR/issues/152
 
 
 从文件系统到关系数据库再到非关系数据库，数据层，视图层，控制层。
+
+
+*************
+
+sudo easy_install pip 
