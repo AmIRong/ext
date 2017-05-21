@@ -220,3 +220,4 @@ https://github.com/liuruoze/EasyPR/issues/152
 *************
 
 sudo easy_install pip 
+http://blog.csdn.net/jobschen/article/details/49559023
