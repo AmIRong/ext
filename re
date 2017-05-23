@@ -209,7 +209,9 @@ sudo make install
 git clone https://github.com/liuruoze/EasyPR
 cd easypr
 https://github.com/liuruoze/EasyPR/issues/152
-./build.sh
+sudo ./build.sh
+./demo recognize -p resources/image/plate_recognize.jpg --svm resources/model/svm.xml --ann resources/model/ann.xml
+
 
 
 
