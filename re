@@ -232,3 +232,8 @@ http://www.zhimengzhe.com/mac/234096.html
 sudo pip install python-dateutil==2.2
 sudo jupyter notebook --allow-root
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install -vd snappy leveldb gflags glog szip lmdb
+brew install hdf5 opencv
+brew install --build-from-source --with-python -vd protobuf
+brew install --build-from-source -vd boost boost-python
+for x in snappy leveldb protobuf gflags glog szip boost boost-python lmdb homebrew/science/opencv; do brew edit $x; done
