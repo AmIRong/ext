@@ -231,3 +231,4 @@ pip install jupyter
 http://www.zhimengzhe.com/mac/234096.html
 sudo pip install python-dateutil==2.2
 sudo jupyter notebook --allow-root
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
